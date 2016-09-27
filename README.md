@@ -5,7 +5,7 @@
 
 **gulp** - Clear _./dist/_ folder > Build project > Run server on localhost
 
-**gulp clear** - Delete _./dist/_ folder
+**gulp clear** - Clear _./dist/_ folder
 
 **gulp build** - Delete _./dist/_ folder
 

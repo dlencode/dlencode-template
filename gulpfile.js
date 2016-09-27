@@ -130,7 +130,7 @@ gulp.task('images:build', function () {
 // Clean
 // Clean all files before compile project
 // ==================================================
-gulp.task('clean', function () {
+gulp.task('clear', function () {
   del.sync([`${paths.dist.src}`]);
 });
 
@@ -150,4 +150,4 @@ gulp.task('serve', ['js', 'sass', 'jade', 'images'], function () {
   });
 });
 
-gulp.task('default', ['clean', 'build', 'serve']);
+gulp.task('default', ['clear', 'build', 'serve']);

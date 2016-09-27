@@ -1,7 +1,7 @@
 # Dlencode template
-### EcmaScript6, Sass, Jade and image optimizer
+#### EcmaScript6, Sass, Jade and image optimizer
 
-### Firstly install npm and bower dependencies
+## Firstly install npm and bower dependencies
 
 run in terminal command
 ```
@@ -10,7 +10,7 @@ bower install
 ```
 
 
-#### Main tasks
+## Main tasks
 
 ```
 gulp
@@ -31,7 +31,7 @@ Delete _./dist/_ folder
 
 
 
-#### Secondary tasks
+## Secondary tasks
 
 ```
 gulp jade
